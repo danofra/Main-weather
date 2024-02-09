@@ -50,6 +50,7 @@ const CardComponent = (city) => {
           </Card.Body>
         </Card>
       </Col>
+      {/* Modal 1: Details*/}
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>{city.data.name}</Modal.Title>
