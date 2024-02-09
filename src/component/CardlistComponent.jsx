@@ -28,7 +28,7 @@ function CardlistComponent() {
           ) : citys.list.length > 0 ? (
             <>
               <h3 className="text-center">
-                Ecco i risultati della tua ricerca: {data.city}
+                Ecco i risultati della tua ricerca: {data.citys}
               </h3>
               {citys.list.map((city, index) => (
                 <CardComponent key={index} data={city} />
