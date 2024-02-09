@@ -7,8 +7,6 @@ import FooterComponent from "./component/FooterComponent";
 import CardlistComponent from "./component/CardlistComponent";
 import WelcomeComponent from "./component/WelcomeComponent.jsx";
 import CityComponent from "./component/CityComponent.jsx";
-import Hero from "./data/img/hero.jpeg";
-import Image from "react-bootstrap/Image";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,10 +16,7 @@ function App() {
         <header>
           <NavbarComponent />
         </header>
-        <main className="vh-auto">
-          <div className="text-center">
-            <Image src={Hero} width={"40%"} />
-          </div>
+        <main className="mt-4">
           <Routes>
             <Route path="/" element={<WelcomeComponent />} />
             <Route path="/:city" element={<CardlistComponent />} />
