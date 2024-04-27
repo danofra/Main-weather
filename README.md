@@ -1,10 +1,10 @@
-# Weather App
+# Main Weather
 
 This project is a weather application that utilizes APIs to retrieve and display temperatures for various locations around the world. It was developed as part of my study journey to practice front-end technologies like Bootstrap, JavaScript, and React.
 
 ## Description
 
-The Weather App allows users to search for weather forecasts for a specific location and view current, maximum, and minimum temperatures, along with other relevant weather information. It uses APIs to access real-time data and provide accurate information about atmospheric conditions.
+The Main Weather allows users to search for weather forecasts for a specific location and view current, maximum, and minimum temperatures, along with other relevant weather information. It uses APIs to access real-time data and provide accurate information about atmospheric conditions.
 
 ## Technologies Used
 
